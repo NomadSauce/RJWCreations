@@ -145,7 +145,7 @@
 		{#if outerWidth <= break_points[1].max}
 			<div
 				class="row justify-content-center banner main_slider "
-				style="background-image: url({mainbanner});">
+				style="background-image: url({bannermobile});">
 				<div class="text-center">
 					<div class="banner-bg  pb-2 mt-3 w-100 rounded">
 						<!-- <img src={mainbanner} alt=""> -->
