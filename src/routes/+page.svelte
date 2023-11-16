@@ -9,6 +9,9 @@
 	import blueopal from "../lib/assets/blueopal.jpg";
 	import banner5 from "../lib/assets/banner5.jpg";
 	import ring2 from "../lib/assets/ring2.jpg";
+	import bannermobile from '$lib/assets/bannermobile.jpg'
+	import mainbanner from '$lib/assets/bannermain.jpg'
+
 
 
 	
@@ -142,9 +145,10 @@
 		{#if outerWidth <= break_points[1].max}
 			<div
 				class="row justify-content-center banner main_slider "
-				style="background-image: url(/src/lib/assets/bannermobile.jpg);">
+				style="background-image: url({mainbanner});">
 				<div class="text-center">
 					<div class="banner-bg  pb-2 mt-3 w-100 rounded">
+						<!-- <img src={mainbanner} alt=""> -->
 						<h1 class="display-1  text-center text-white-50">
 							RJW Creations
 						</h1>
@@ -157,7 +161,7 @@
 		{:else}
 			<div
 				class="row col-6 justify-content-evenly banner main_slider"
-				style="background-image: url(/src/lib/assets/bannermain.jpg);">
+				style="background-image: url({mainbanner});">
 				<div class="align-self-center">
 					<h1 class="display-1 text-danger text-left">
 						RJW Creations
