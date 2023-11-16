@@ -3,27 +3,21 @@
 	import { cartItems } from '../cart';
 </script>
 
-<div class="container-fluid header trans_300 row">
-
-<nav class="navbar navbar-expand-lg bg-dark">
-	<div class="container-fluid  d-flex justify-content-between">
-		<h4 class="text-danger display-6">RJs Creations</h4>
-		<ul class="navbar-nav d-flex justify-content-around ">
-			<li class="nav-item ">
+<div class="container-fluid p-2">
+	<ul class="d-flex justify-content-center nav_bar">
+		<li class="nav-item p-2 m-1 btn btn-sm btn-dark">
 			<a class="nav-link text-primary active" aria-current="page" href="/">Home</a>
-			</li>
-			<li class="nav-item ">
+		</li>
+		<li class="nav-item p-2 m-1 btn btn-sm btn-dark">
 			<a class="nav-link text-primary" href="/products">Products</a>
-			</li>
-			<li class="nav-item ">
+		</li>
+		<li class="nav-item p-2 m-1 btn btn-sm btn-dark">
 			<a class="nav-link text-primary" href="/about">About</a>
-			</li>
-			<li class="nav-item ">
+		</li>
+		<li class="nav-item p-2 m-1 btn btn-sm btn-dark">
 			<a class="nav-link text-primary" href='/cart'>Cart {$cartItems.length}</a>
-			</li>
-		</ul>
-	</div>
-</nav>
+		</li>
+	</ul>
 </div>
 
 <slot />

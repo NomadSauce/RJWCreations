@@ -17,9 +17,6 @@
     import ring12 from '$lib/assets/ring12.jpg'
     import ring13 from '$lib/assets/ring13.jpg'
 
-    onMount(() => {
-        console.log(columns)
-    })
 
     let images = [
         ring1,
@@ -85,22 +82,13 @@
 
 
 
-<div class="gallery border border-danger">
-    <h2 class="display-6 text-white-50">
-        Gallery
-    </h2>
-
-    <!-- {#if fullScreen}
-        <div>
-            <img class="full-img" src={fullImg} alt="">
-        </div>
-    {/if} -->
+<div class="gallery">
 
     <ImageModal bind:showModal>
         <img class='full-img' src={fullImg} alt="">
     </ImageModal>
 
-    <div class="w-100 d-flex">
+    <div class="justify-content-center d-flex ">
         <!-- {#each cols as col, index}
             
         {/each} -->

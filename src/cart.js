@@ -13,7 +13,7 @@ export let products = readable([
         description: '',
         options: [
             {
-                value: 'Yooperlight',
+                value: 'yooper',
                 label: 'Yooperlight',
                 price: 135
             },
@@ -32,7 +32,7 @@ export let products = readable([
         description: '',
         options: [
             {
-                value: 'Yooperlight',
+                value: 'yooper',
                 label: 'Yooperlight',
                 price: 135
             },
@@ -51,12 +51,12 @@ export let products = readable([
         description: '',
         options: [
             {
-                value: 'Yooperlight',
+                value: 'yooper',
                 label: 'Yooperlight',
                 price: 135
             },
             {
-                value: 'Opal',
+                value: 'opal',
                 label: 'Opal',
                 price: 115
             }
