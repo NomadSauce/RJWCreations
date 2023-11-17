@@ -17,7 +17,7 @@
             Each ring starts with the long journey to Michigan's Upper Penninsula on Lake Superior. 
         </p>
         <p class="display-6 text-white-50 text-left banner-bg rounded p-2">
-            Each stone is selected broken down to flakes where each flake is selected for the best luminescent properties. 
+            Each stone is broken down to flakes where each flake is selected for the best luminescent properties. 
         </p>
         <!-- <p class="display-6 text-white-50 text-left banner-bg rounded p-2">
             
