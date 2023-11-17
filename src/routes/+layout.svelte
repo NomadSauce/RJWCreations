@@ -40,9 +40,9 @@
 
 	.main_footer {
 		background-color: black;
-		height: 60px;
+		height: 70px;
 		font-family: 'Dancing Script' !important;
-		font-size: 48px !important;
+		font-size: 60px !important;
 		color: rgb(114, 114, 114);
 		background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%,rgba(220, 66, 37, 0.0) 100%); /* W3C */
 

@@ -160,20 +160,23 @@
 			</div>
 		{:else}
 			<div
-				class="col-6 justify-content-evenly banner main_slider"
+				class="banner main_slider d-flex "
 				style="background-image: url({mainbanner});">
-				<div class="align-self-center">
-					<h1 class="banner-header text-danger text-left">
-						RJ's Creations
-					</h1>
-				</div>
-				<div class="text-left align-self-end">
-					<div class="banner-bg  p-4 mt-4 w-100 rounded">
-						<h6 class="banner-head==er  text-white-50 ml-4">
-							Bespoke hand-made-to-order guilded rings. 
-						</h6>
+				<div class="flex-column align-self-center banner-bg rounded d-flex align-items-center ml-4 pl-4">
+					<div class="align-self-center ">
+						<h1 class="banner-header text-danger text-left">
+							RJ's Creations
+						</h1>
+					</div>
+					<div class="text-left ">
+						<div class="p-4 mt-4 w-100 rounded">
+							<h6 class="text-white-50 ml-4">
+								Bespoke hand-made-to-order guilded rings. 
+							</h6>
+						</div>
 					</div>
 				</div>
+				
 			</div>
 		{/if}
 	</div>
