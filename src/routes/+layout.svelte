@@ -5,13 +5,13 @@
 	import '@fontsource/roboto'
 </script>
 
-<div class="container-fluid p-2">
+<div class="container-fluid">
 	<ul class="d-flex justify-content-center nav_bar">
 		<li class="nav-item p-2 m-1 btn btn-sm btn-dark">
 			<a class="nav-link text-primary active" aria-current="page" href="/">Home</a>
 		</li>
 		<li class="nav-item p-2 m-1 btn btn-sm btn-dark">
-			<a class="nav-link text-primary" href="/products">Products</a>
+			<a class="nav-link text-primary" href="#builder">Rings</a>
 		</li>
 		<li class="nav-item p-2 m-1 btn btn-sm btn-dark">
 			<a class="nav-link text-primary" href="/about">About</a>
@@ -24,6 +24,8 @@
 
 <slot />
 
+
+<!-- footer -->
 <div class="container-fluid header w-100 p-0 m-0">
 	<footer class="main_footer d-flex justify-content-center align-items-center ">
 		<h1 class="text-center">RJ's Creations</h1>

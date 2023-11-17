@@ -141,7 +141,7 @@
 
 <div class="container-fluid">
 	<!-- Main Slider -->
-	<div class="full_height row">
+	<div class="h-100 row">
 		{#if outerWidth <= break_points[1].max}
 			<div
 				class="justify-content-center banner main_slider "
@@ -191,7 +191,7 @@
 		<h2>3 easy steps</h2>
 	</div>
 
-	<div class=" row justify-content-evenly">
+	<div class="row justify-content-evenly" id='builder'>
 		<!-- Step 1: Ring blank -->
 		<div
 			class="row d-flex align-items-stretch justify-content-around thin_banner p-2 m-1 col-lg"
@@ -368,7 +368,7 @@
 	</div>
 
 	<!--  -->
-	<div class="main_slider full_height" />
+	<div class="main_slider h-100" />
 	<!-- 
 	<div class="banner  main_slider">
 		
