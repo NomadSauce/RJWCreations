@@ -152,7 +152,7 @@
 						<h1 class="banner-header  text-center text-white-50">
 							RJ's Creations
 						</h1>
-						<h6 class="banner-header text-white-50">
+						<h6 class="align-self-end text-white-50">
 							Bespoke hand-made-to-order guilded rings. 
 						</h6>
 					</div>
