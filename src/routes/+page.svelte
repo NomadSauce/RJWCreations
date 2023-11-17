@@ -12,6 +12,9 @@
 	import bannermobile from '$lib/assets/bannermobile.jpg'
 	import mainbanner from '$lib/assets/bannermain.jpg'
 	import '@fontsource/cormorant-sc/300.css';
+	import '@fontsource/nanum-gothic';
+
+	
 
 
 
@@ -188,9 +191,9 @@
 
 	
 
-	<div class="row text-white-50 p-2 m-2">
-		<h2>3 easy steps</h2>
-	</div>
+	<!-- <div class="row text-white-50 p-2 m-2">
+		<h2 class="sub-banner2">3 easy steps</h2>
+	</div> -->
 
 	<div class="row justify-content-evenly" id='builder'>
 		<!-- Step 1: Ring blank -->
@@ -199,14 +202,14 @@
 		>
 			<div class="d-flex align-items-center m-2">
 				<div class="flex-shrink-0">
-					<div class:active-circle={blank != ''} 
-					class="circle p-1 col-4"
-					>
+					<div 
+						class:active-circle={blank != ''} 
+						class="circle p-1 col-4">
 					1
 				</div>
 				</div>
 				<div class="flex-grow-1 ms-1">
-					<h3 class="text-white-50">Select your blank</h3>
+					<h3 class="text-white-50 sub-banner2">Select your blank</h3>
 				</div>
 			</div>
 
@@ -214,16 +217,16 @@
 			<div
 				on:click={() => selectBlank("whiteceramic")}
 				class:active={blank === 'whiteceramic'}
-				class="d-flex align-items-center flex-sm-row flex-lg-column justify-content-around rounded col-sm-4 col-md border border-dark sm-1 bg-secondary blank-product pt-1 pb-2"
+				class="d-flex align-items-center flex-sm-row flex-lg-column justify-content-around rounded col-sm-4 col-md border border-dark sm-1 bg-secondary blank-product pt-1 pb-2 gradient-right"
 			>
 				<div
 					class="align-text-centercol-lg-12 col-sm align-self-sm-center flex-grow-1 ms-1 justify-content-sm-around"
 				>
-					<h5
-						class="text-white-50 text-center align-items-sm-center col-md-4 align-items-lg-center col-sm-4 justify-content-sm-around"
+					<h3
+						class="text-white-50 text-center align-items-sm-center col-md-4 align-items-lg-center col-sm-4 justify-content-sm-around sub-banner2"
 					>
 						White Ceramic
-					</h5>
+					</h3>
 				</div>
 				<div
 					class="col-lg-12 col-sm-4 d-flex justify-content-sm-center"
@@ -241,11 +244,11 @@
 				<div
 					class="align-text-centercol-lg-12 col-sm align-self-sm-center flex-grow-1 ms-1 justify-content-sm-around"
 				>
-					<h5
-						class="text-white-50 text-center align-items-sm-center col-md-4 align-items-lg-center col-sm-4 justify-content-sm-around"
+					<h3
+						class="text-white-50 text-center align-items-sm-center col-md-4 align-items-lg-center col-sm-4 justify-content-sm-around sub-banner2"
 					>
 						Black Ceramic
-					</h5>
+					</h3>
 				</div>
 				<div
 					class="col-lg-12 col-sm-4 d-flex justify-content-sm-center"
@@ -263,11 +266,11 @@
 				<div
 					class="align-text-centercol-lg-12 col-sm align-self-sm-center flex-grow-1 ms-1 justify-content-sm-around"
 				>
-					<h5
-						class="text-white-50 text-center align-items-sm-center col-md-4 align-items-lg-center col-sm-4 justify-content-sm-around"
+					<h3
+						class="text-white-50 text-center align-items-sm-center col-md-4 align-items-lg-center col-sm-4 justify-content-sm-around sub-banner2"
 					>
 						Titanium
-					</h5>
+					</h3>
 				</div>
 				<div
 					class="col-lg-12 col-sm-4 d-flex justify-content-sm-center"
@@ -294,7 +297,7 @@
 					</div>
 				</div>
 				<div class="flex-grow-1 ms-1">
-					<h3 class="text-white-50">Select your stone</h3>
+					<h3 class="text-white-50 sub-banne2">Select your stone</h3>
 				</div>
 			</div>
 			<!-- Yooperlight -->
@@ -304,9 +307,9 @@
 				class:active={stone === 'yooper'}
 				>
 				<div class="align-text-center">
-					<h5 class="text-white-50 text-center">
+					<h2 class="text-white-50 sub-banner2 text-center">
 						Yooperlight (Syenite)
-					</h5>
+					</h2>
 				</div>
 				<img src={yooperlight} alt="" class="blankimg" />
 			</div>
@@ -317,7 +320,7 @@
 				class:active={stone === 'opal'}
 				>
 				<div class="align-text-center">
-					<h5 class="text-white-50 text-center">Blue Opal</h5>
+					<h2 class="text-white-50 sub-banner2 text-center">Blue Opal</h2>
 				</div>
 
 				<div>
@@ -337,12 +340,12 @@
 						</div>
 					</div>
 					<div class="flex-grow-1 ms-1">
-						<h3 class="text-white-50">Select your size</h3>
+						<h3 class="text-white-50 sub-banner2">Select your size</h3>
 					</div>
 				</div>
 				<div class="row justify-content-center banner">
-					<label for="customRange3" class="text-white-50"
-						><h4>{value}</h4></label
+					<label for="customRange3" class="text-white-50 sub-banner2"
+						><h2>{value}</h2></label
 					>
 					<input
 						type="range"
@@ -390,6 +393,10 @@
 		font-family: 'Cormorant SC', sans-serif;
 		font-weight: 300;
 		font-size: 24px !important;
+
+	}
+	.sub-banner2 {
+        font-family: 'Nanum Gothic', sans-serif;
 
 	}
 

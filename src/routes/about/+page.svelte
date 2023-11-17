@@ -4,6 +4,7 @@
     import superiorshore1 from '$lib/assets/superiorshore.jpg'
     import '@fontsource/nanum-myeongjo';
     import '@fontsource/cormorant-sc';
+	import '@fontsource/nanum-gothic';
 
 
 </script>
@@ -47,6 +48,8 @@
     .banner-bg {
         /* font-family: 'Nanum Myeongjo', sans-serif; */
         font-family: 'Cormorant SC', sans-serif;
+        /* font-family: 'Nanum Gothic', sans-serif; */
+
 
     }
 </style>

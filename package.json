@@ -27,6 +27,7 @@
   "dependencies": {
     "@fontsource/cormorant-sc": "^5.0.17",
     "@fontsource/dancing-script": "^5.0.15",
+    "@fontsource/nanum-gothic": "^5.0.16",
     "@fontsource/nanum-myeongjo": "^5.0.16",
     "@fontsource/roboto": "^5.0.8",
     "stripe": "^14.4.0"

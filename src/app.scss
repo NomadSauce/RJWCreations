@@ -146,6 +146,10 @@ ul
 	transition: all 300ms ease;
 }
 
+.gradient-left {
+    background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%,rgba(220, 66, 37, 0.0) 100%); /* W3C */
+}
+
 .img-gradient:after {
     content:'';
     position:absolute;
