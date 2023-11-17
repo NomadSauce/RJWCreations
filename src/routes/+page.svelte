@@ -144,7 +144,7 @@
 	<div class="full_height row">
 		{#if outerWidth <= break_points[1].max}
 			<div
-				class="row justify-content-center banner main_slider "
+				class="justify-content-center banner main_slider "
 				style="background-image: url({bannermobile});">
 				<div class="text-center">
 					<div class="banner-bg  pb-2 mt-3 w-100 rounded">
@@ -152,7 +152,7 @@
 						<h1 class="banner-header  text-center text-white-50">
 							RJ's Creations
 						</h1>
-						<h6 class="align-self-end text-white-50">
+						<h6 class=" text-white-50">
 							Bespoke hand-made-to-order guilded rings. 
 						</h6>
 					</div>
@@ -160,7 +160,7 @@
 			</div>
 		{:else}
 			<div
-				class="row col-6 justify-content-evenly banner main_slider"
+				class="col-6 justify-content-evenly banner main_slider"
 				style="background-image: url({mainbanner});">
 				<div class="align-self-center">
 					<h1 class="banner-header text-danger text-left">
@@ -169,7 +169,7 @@
 				</div>
 				<div class="text-left align-self-end">
 					<div class="banner-bg  p-4 mt-4 w-100 rounded">
-						<h6 class="banner-header  text-white-50 ml-4">
+						<h6 class="banner-head==er  text-white-50 ml-4">
 							Bespoke hand-made-to-order guilded rings. 
 						</h6>
 					</div>
@@ -179,18 +179,10 @@
 	</div>
 
 	<!-- Gallery -->
-	<div class=" row col-12">
-		{#if outerWidth > break_points[1].min}
-			<div class="col-2"></div>
-			<div class="col-8">
-				<Gallery />
-			</div>
-			<div class="col-2"></div>
-		{:else}
-			<Gallery />
+	<Gallery />
 
-		{/if}
-	</div>
+
+	
 
 	<div class="row text-white-50 p-2 m-2">
 		<h2>3 easy steps</h2>

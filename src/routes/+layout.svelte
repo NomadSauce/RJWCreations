@@ -24,11 +24,11 @@
 
 <slot />
 
-<!-- <div class="container-fluid header">
-	<footer class="main_footer">
-
+<div class="container-fluid header w-100 p-0 m-0">
+	<footer class="main_footer d-flex justify-content-center align-items-center ">
+		<h1 class="text-center">RJ's Creations</h1>
 	</footer>
-</div> -->
+</div>
 
 
 
@@ -36,6 +36,16 @@
 	
 	.navbar {
 		height: 5rem;
+	}
+
+	.main_footer {
+		background-color: black;
+		height: 60px;
+		font-family: 'Dancing Script' !important;
+		font-size: 48px !important;
+		color: rgb(114, 114, 114);
+		background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%,rgba(220, 66, 37, 0.0) 100%); /* W3C */
+
 	}
 
 </style>
