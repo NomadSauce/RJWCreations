@@ -11,6 +11,7 @@
 	import ring2 from "../lib/assets/ring2.jpg";
 	import bannermobile from '$lib/assets/bannermobile.jpg'
 	import mainbanner from '$lib/assets/bannermain.jpg'
+	import '@fontsource/cormorant-sc/300.css';
 
 
 
@@ -152,8 +153,8 @@
 						<h1 class="banner-header  text-center text-white-50">
 							RJ's Creations
 						</h1>
-						<h6 class=" text-white-50">
-							Bespoke hand-made-to-order guilded rings. 
+						<h6 class="text-white-50 sub-banner">
+							Bespoke luminous rings <em>hand-made-to-order</em>  
 						</h6>
 					</div>
 				</div>
@@ -170,8 +171,8 @@
 					</div>
 					<div class="text-left ">
 						<div class="p-4 mt-4 w-100 rounded">
-							<h6 class="text-white-50 ml-4">
-								Bespoke hand-made-to-order guilded rings. 
+							<h6 class="text-white-50 sub-banner ml-4">
+								Bespoke luminous rings <em>hand-made-to-order</em>  
 							</h6>
 						</div>
 					</div>
@@ -383,6 +384,12 @@
 	
 	.active-circle {
 		background-color: rgb(1, 117, 226) !important;
+
+	}
+	.sub-banner {
+		font-family: 'Cormorant SC', sans-serif;
+		font-weight: 300;
+		font-size: 24px !important;
 
 	}
 
