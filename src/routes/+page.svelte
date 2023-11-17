@@ -149,10 +149,10 @@
 				<div class="text-center">
 					<div class="banner-bg  pb-2 mt-3 w-100 rounded">
 						<!-- <img src={mainbanner} alt=""> -->
-						<h1 class="display-1  text-center text-white-50">
-							RJW Creations
+						<h1 class="banner-header  text-center text-white-50">
+							RJ's Creations
 						</h1>
-						<h6 class="display-6  text-white-50">
+						<h6 class="banner-header text-white-50">
 							Bespoke hand-made-to-order guilded rings. 
 						</h6>
 					</div>
@@ -163,13 +163,13 @@
 				class="row col-6 justify-content-evenly banner main_slider"
 				style="background-image: url({mainbanner});">
 				<div class="align-self-center">
-					<h1 class="display-1 text-danger text-left">
-						RJW Creations
+					<h1 class="banner-header text-danger text-left">
+						RJ's Creations
 					</h1>
 				</div>
 				<div class="text-left align-self-end">
 					<div class="banner-bg  p-4 mt-4 w-100 rounded">
-						<h6 class="display-6  text-white-50 ml-4">
+						<h6 class="banner-header  text-white-50 ml-4">
 							Bespoke hand-made-to-order guilded rings. 
 						</h6>
 					</div>
@@ -389,5 +389,10 @@
 	.active-circle {
 		background-color: rgb(1, 117, 226) !important;
 
+	}
+
+	.banner-header {
+		font-family: 'Dancing Script' !important;
+		font-size: 48px !important;
 	}
 </style>

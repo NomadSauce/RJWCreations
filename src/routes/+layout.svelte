@@ -1,6 +1,8 @@
 <script>
 	import '../app.scss';
 	import { cartItems } from '../cart';
+	import '@fontsource/dancing-script/400.css'
+	import '@fontsource/roboto'
 </script>
 
 <div class="container-fluid p-2">
