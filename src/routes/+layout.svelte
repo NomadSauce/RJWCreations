@@ -26,7 +26,7 @@
 
 
 <!-- footer -->
-<div class="container-fluid header w-100 p-0 m-0">
+<div class="header w-100 p-0 m-0">
 	<footer class="main_footer d-flex justify-content-center align-items-center ">
 		<h1 class="text-center">RJ's Creations</h1>
 	</footer>

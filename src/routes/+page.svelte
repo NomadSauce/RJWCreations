@@ -13,12 +13,7 @@
 	import mainbanner from '$lib/assets/bannermain.jpg'
 	import '@fontsource/cormorant-sc/300.css';
 	import '@fontsource/nanum-gothic';
-
-	
-
-
-
-	
+	import CartItems from "../lib/CartItems.svelte";
 
 	function changeRange(e) {
 		console.log(e);
@@ -144,6 +139,10 @@
 />
 
 <div class="container-fluid">
+	<!-- Cart-Items overlay -->
+	<div class="sticky-top align-items-end row position-sticky cart-items">
+		<CartItems data={$cartItems} />
+	</div>
 	<!-- Main Slider -->
 	<div class="h-100 row">
 		{#if outerWidth <= break_points[1].max}
@@ -400,6 +399,9 @@
 
 	}
 
+	.cart-items {
+		height: 0px;
+	}
 	.banner-header {
 		font-family: 'Dancing Script' !important;
 		font-size: 48px !important;
