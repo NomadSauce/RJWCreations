@@ -30,6 +30,7 @@
     "@fontsource/nanum-gothic": "^5.0.16",
     "@fontsource/nanum-myeongjo": "^5.0.16",
     "@fontsource/roboto": "^5.0.8",
+    "@vercel/analytics": "^1.1.1",
     "stripe": "^14.4.0"
   },
   "description": "Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).",

@@ -164,7 +164,7 @@
 			</div>
 		{:else}
 			<div
-				class="banner main_slider d-flex "
+				class="banner banner-75 d-flex "
 				style="background-image: url({mainbanner});">
 				<div class="flex-column align-self-center banner-bg rounded d-flex align-items-center ml-4 pl-4">
 					<div class="align-self-center ">
@@ -217,7 +217,7 @@
 			<div
 				on:click={() => selectBlank("whiteceramic")}
 				class:active={blank === 'whiteceramic'}
-				class="d-flex align-items-center flex-sm-row flex-lg-column justify-content-around rounded col-sm-4 col-md border border-dark sm-1 bg-secondary blank-product pt-1 pb-2 gradient-right"
+				class="d-flex align-items-center flex-sm-row flex-lg-column justify-content-around rounded col-sm-4 col-md border border-dark sm-1 bg-secondary blank-product pt-1 pb-2"
 			>
 				<div
 					class="align-text-centercol-lg-12 col-sm align-self-sm-center flex-grow-1 ms-1 justify-content-sm-around"

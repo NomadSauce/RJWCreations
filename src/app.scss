@@ -107,10 +107,31 @@ ul
 
 .quarter-banner {
     height: 20vh;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 .half-banner {
     height: 50vh;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.full_height
+{
+	height: 100vh !important;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.banner-75 {
+    height: 75vh;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 
@@ -130,11 +151,6 @@ ul
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-}
-.full_height
-{
-	height: 100vh !important;
-
 }
 
 .trans_300
