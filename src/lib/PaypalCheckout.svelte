@@ -86,7 +86,7 @@
 
 </script>
 
-<div id='checkout-button-container' />
+<div id='checkout-button-container' class="text-white-50" />
 
 <style>
     #checkout-button-container {

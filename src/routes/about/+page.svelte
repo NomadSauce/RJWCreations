@@ -34,6 +34,9 @@
                 It is known for its unique and beautiful fluorescence under ultraviolet light. 
                 High sodalite content in the matrix of the stones is responsible for their fluorescence.
             </p>
+            <p class="text-white-50">
+                Each ring is hand-made-to-order. Orders are typically shipped within 1 week but may take longer depending on demand.
+            </p>
 
         </blockquote>
     </div>
