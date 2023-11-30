@@ -27,6 +27,10 @@
  */
 declare module '$env/static/private' {
 	export const SECRET_STRIPE_KEY: string;
+	export const PAYPAL_ID: string;
+	export const PAYPAL_SECRET: string;
+	export const PAYPAL_ID_TEST: string;
+	export const PAYPAL_SECRET_TEST: string;
 	export const GJS_DEBUG_TOPICS: string;
 	export const LESSOPEN: string;
 	export const USER: string;
@@ -143,6 +147,10 @@ declare module '$env/static/public' {
 declare module '$env/dynamic/private' {
 	export const env: {
 		SECRET_STRIPE_KEY: string;
+		PAYPAL_ID: string;
+		PAYPAL_SECRET: string;
+		PAYPAL_ID_TEST: string;
+		PAYPAL_SECRET_TEST: string;
 		GJS_DEBUG_TOPICS: string;
 		LESSOPEN: string;
 		USER: string;

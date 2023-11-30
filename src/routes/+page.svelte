@@ -14,10 +14,13 @@
 	import '@fontsource/cormorant-sc/300.css';
 	import '@fontsource/nanum-gothic';
 	import CartItems from "../lib/CartItems.svelte";
+	import PaypalCheckout from "../lib/PaypalCheckout.svelte";
 
 	function changeRange(e) {
 		console.log(e);
 	}
+
+	// $: console.log('Cart Items', $cartItems)
 
 	// -------------------------------------------------------
 
@@ -25,6 +28,8 @@
 	let stone = ''
 	let value = 7;
 	let price = 0
+
+	let cartReset = false
 
 	let size = 8
 
@@ -51,12 +56,12 @@
 			size: value,
 			price: price
 		}
-		console.log('Item:', item)
+		// console.log('Item:', item)
 		$cartItems = [item, ...$cartItems]
 		blank = ''
 		stone = ''
 		price = 0
-		console.log('Item', item, 'store', $cartItems)
+		// console.log('Item', item, 'store', $cartItems)
 	}
 
 	async function checkout() {
@@ -128,6 +133,16 @@
 				bp = v;
 			}
 		});
+	}
+
+	$: resetStore(cartReset)
+
+	function resetStore(val) {
+		if (cartReset) {
+			console.log('Store Reset')
+			$cartItems = []
+			cartReset = false
+		}
 	}
 </script>
 
@@ -358,13 +373,17 @@
 				</div>
 			</div>
 			<div>
+
+			</div>
+			<div>
 				<button class={(blank === '' || stone === '') ? "btn btn-secondary btn-lg rounded disabled" : "btn btn-secondary btn-lg rounded"} on:click={() => addToCart()}>{($cartItems.length > 0) ? 'Add Another' : 'Add to Cart'}</button>
 				{#if $cartItems.length > 0}
-					<button 
+					<!-- <button 
 						on:click={() => checkout()}
 						class="btn btn-danger btn-lg rounded">
 						Checkout! {$cartItems.length}
-					</button>
+					</button> -->
+					<PaypalCheckout bind:cartReset cartTotal={$cartItems}/>
 				{/if}
 			</div>
 		</div>

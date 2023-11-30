@@ -30,6 +30,7 @@
     "@fontsource/nanum-gothic": "^5.0.16",
     "@fontsource/nanum-myeongjo": "^5.0.16",
     "@fontsource/roboto": "^5.0.8",
+    "@paypal/paypal-js": "^7.1.1",
     "@vercel/analytics": "^1.1.1",
     "stripe": "^14.4.0"
   },
