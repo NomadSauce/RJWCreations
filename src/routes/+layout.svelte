@@ -11,14 +11,14 @@
 			<a class="nav-link text-primary active" aria-current="page" href="/">Home</a>
 		</li>
 		<li class="nav-item p-2 m-1 btn btn-sm btn-dark">
-			<a class="nav-link text-primary" href="#builder">Rings</a>
+			<a class="nav-link text-primary" href="/#builder">Rings</a>
 		</li>
 		<li class="nav-item p-2 m-1 btn btn-sm btn-dark">
 			<a class="nav-link text-primary" href="/about">About</a>
 		</li>
-		<li class="nav-item p-2 m-1 btn btn-sm btn-dark">
+		<!-- <li class="nav-item p-2 m-1 btn btn-sm btn-dark">
 			<a class="nav-link text-primary" href='/cart'>Cart {$cartItems.length}</a>
-		</li>
+		</li> -->
 	</ul>
 </div>
 
