@@ -41,8 +41,8 @@
 
     $: console.log('Total price:', total_cart)
 
-    const CLIENT_ID = 'AU00jhFiZ9cquwIydsAa8uXXwSmyScPOKsR19UGTMKO58YhD-cax7fURREfvJ2IYQx7PUrx7oQmwGy-N'
-
+    const CLIENT_ID_TEST = 'AU00jhFiZ9cquwIydsAa8uXXwSmyScPOKsR19UGTMKO58YhD-cax7fURREfvJ2IYQx7PUrx7oQmwGy-N'
+    const CLIENT_ID = 'AfJXNYIBKWxEJJ14X-YfCCaMKl-2kkw6wcw2DrRP1RDspAhokruTKsqrGmr0-uEULE8Feohi7gk1FkXb'
     loadScript({ 'client-id': CLIENT_ID, 'currency': 'USD'}).then((paypal) => {
         paypal
             .Buttons({
