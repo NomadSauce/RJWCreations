@@ -78,7 +78,7 @@
                 },
                 onError: function (err) {
                     alert('Something went wrong')
-                    console.log('Something went wrong', err)
+                    console.log('Something went wrong, please contact rjwcreations@gmail.com', err)
                 }
             })
             .render('#checkout-button-container')
