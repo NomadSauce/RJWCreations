@@ -29,6 +29,7 @@
 <div class="header w-100 p-0 m-0">
 	<footer class="main_footer d-flex justify-content-center align-items-center ">
 		<h1 class="text-center">RJ's Creations</h1>
+		<h5 class="text-white-50">Contact/Help: rjwcreations@gmail.com</h5>
 	</footer>
 </div>
 
